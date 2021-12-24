@@ -2,7 +2,14 @@
 #include <sxx/random_module.hpp>
 
 int main(int, char**) {
-    std::cout << "Hello, world!\n";
+
+#ifdef NDEBUG
+// nondebug
+    std::cout << "Hello, world! (in Release mode)\n";
+#else
+// debug code
+    std::cout << "Hello, world! (in debug mode)!\n";
+#endif
 
     sxx::RandomModule rand_module;
     auto& ref_rand_module = rand_module;

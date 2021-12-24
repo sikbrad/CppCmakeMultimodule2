@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  cmm2:
+    image: cmm2
+    container_name: cmm2c
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        - CM_BUILD_TARGET=Release

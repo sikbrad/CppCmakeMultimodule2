@@ -12,6 +12,33 @@ To practice how to code in vscode, with cmake, and vs2019 cl.exe setup.
 
 It works!
 
+## To build with docker
+
+This commands builds program
+
+``` bash
+docker-compose up
+```
+
+This commands builds prog and connects to newly built container
+
+``` bash
+docker-compose run cmm2 sh
+```
+
+Run program with docker-compose
+
+``` bash
+docker-compose run --rm cmm2 ./build/CppCmakeMultimodule
+```
+
+
+## Working environment
+
+Natively : Teseted with VS2019 CL.exe, with cmake, on vscode.
+
+With dockerizing : Tested on windows 10, with docker toolbox installed.
+
 ## Refernece
 
 [Research note : 2021-12-24 C++ VSCODE 멀티타겟 테스트
