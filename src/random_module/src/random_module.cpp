@@ -3,5 +3,6 @@
 
 int sxx::RandomModule::GetRandomNumberUnder10() {
     std::srand(std::time(nullptr));
+    
     return std::rand() % 10;
 }
