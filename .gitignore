@@ -207,3 +207,7 @@ build/.cmake/api/v1/reply/target-ALL_BUILD-Debug-f2451f02b3314d186a4a.json
 build/.cmake/api/v1/reply/target-ALL_BUILD-MinSizeRel-f2451f02b3314d186a4a.json
 build/.cmake/api/v1/reply/target-ALL_BUILD-Release-f2451f02b3314d186a4a.json
 build/.cmake/api/v1/reply/target-ALL_BUILD-RelWithDebInfo-f2451f02b3314d186a4a.json
+.idea/
+build/
+cmake-build-debug/CMakeFiles/Makefile.cmake
+cmake-build-debug/

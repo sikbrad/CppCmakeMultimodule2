@@ -10,7 +10,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_subdirectory(src)
 
-add_executable(CppCmakeMultimodule main.cpp)
+add_executable(CppCmakeMultimodule main.cpp src/random_module/test/random_module_tester.cpp)
 
 target_link_libraries(CppCmakeMultimodule PUBLIC random_module)
 

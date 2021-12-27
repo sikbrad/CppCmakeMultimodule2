@@ -39,6 +39,22 @@ Natively : Teseted with VS2019 CL.exe, with cmake, on vscode.
 
 With dockerizing : Tested on windows 10, with docker toolbox installed.
 
+
+
+## To build in Visual Studio
+
+Other than clion and vscode, we can build as visual studio solution. It will produce familiar .sln, .vcxproj files. 
+
+``` bash
+mkdir build
+cd build
+cmake ..
+```
+
+Then bunch of sln and vcxproj files will be generated. Use that as reference to understand the analogous structure of this cmake styled project, but please do not use it for permanent use. Follow cmake style, please.
+
+
+
 ## Refernece
 
 [Research note : 2021-12-24 C++ VSCODE 멀티타겟 테스트

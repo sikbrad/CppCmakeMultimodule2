@@ -1,0 +1,4 @@
+add_executable(random_module_test_runnable random_module_tester.cpp)
+
+target_link_libraries(random_module_test_runnable PUBLIC random_module)
+target_include_directories(random_module_test_runnable PUBLIC ../include)
